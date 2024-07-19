@@ -1,9 +1,16 @@
 <?php
-add_action( 'wp_enqueue_scripts', 'astra_child_garage_theme_enqueue_styles' );
-function astra_child_garage_theme_enqueue_styles() {
-    // Enqueue the parent theme's stylesheet with the proper text domain
-    wp_enqueue_style( 'astra-child-garage-theme-parent-style', get_parent_theme_file_uri( 'style.css' ), array(), '1.0.0' );
+add_action('wp_enqueue_scripts', 'astra_child_garage_theme_enqueue_styles');
 
-    // Enqueue the child theme's stylesheet with its own text domain
-    wp_enqueue_style( 'astra-child-garage-theme-style', get_stylesheet_uri(), array( 'astra-child-garage-theme-parent-style' ), '1.0.0' );
+function astra_child_garage_theme_enqueue_styles() {
+    // Enqueue the parent theme's stylesheet
+    $parent_style_url = get_template_directory_uri() . '/style.css';
+    wp_enqueue_style('astra-parent-style', $parent_style_url);
+
+    // Enqueue the child theme's stylesheet
+    $child_style_url = get_stylesheet_directory_uri() . '/style.css';
+    wp_enqueue_style('astra-child-style', $child_style_url, array('astra-parent-style'));
+
+    // Enqueue the Tailwind CSS
+    $tailwind_style_url = get_stylesheet_directory_uri() . '/tailwind-output.css';
+    wp_enqueue_style('tailwind-style', $tailwind_style_url, array('astra-child-style'));
 }
