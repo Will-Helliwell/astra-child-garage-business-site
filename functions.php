@@ -1,6 +1,7 @@
 <?php
-add_action('wp_enqueue_scripts', 'astra_child_garage_theme_enqueue_styles');
 
+// Enqueue stylesheets
+add_action('wp_enqueue_scripts', 'astra_child_garage_theme_enqueue_styles');
 function astra_child_garage_theme_enqueue_styles() {
     // Enqueue the parent theme's stylesheet
     $parent_style_url = get_template_directory_uri() . '/style.css';
@@ -14,3 +15,12 @@ function astra_child_garage_theme_enqueue_styles() {
     $tailwind_style_url = get_stylesheet_directory_uri() . '/tailwind-output.css';
     wp_enqueue_style('tailwind-style', $tailwind_style_url, array('astra-child-style'));
 }
+
+// Load shortcodes
+add_action('init', 'mytheme_load_shortcodes');
+function mytheme_load_shortcodes() {
+    foreach (glob(get_stylesheet_directory() . '/shortcodes/*.php') as $shortcode_file) {
+        include_once $shortcode_file;
+    }
+}
+
