@@ -10,7 +10,7 @@ function astra_garage_social_icons($atts)
 {
     ob_start();
 ?>
-    <div class="astra_garage_social_icons flex items-center space-x-4">
+    <div class="astra_garage_social_icons flex items-center space-x-4 mr-10">
         <!-- instagram -->
         <a href="https://www.instagram.com/" class="atra_garage_social_icons_instagram" target="_blank" rel="nofollow">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38" fill="none">
@@ -79,4 +79,4 @@ function astra_garage_social_icons($atts)
 <?php
     return ob_get_clean();
 }
-add_shortcode('social_icons', 'astra_garage_social_icons');
+add_shortcode('social_icons_garage_custom', 'astra_garage_social_icons');
