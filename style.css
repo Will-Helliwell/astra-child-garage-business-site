@@ -8,3 +8,9 @@ Template: astra
 Version: 1.0.0
 Text Domain: astrachildgaragebusinesssite
 */
+
+/* this overrides the astra 'container' settings which only allow full-width in the paid version of the theme */
+.ast-container {
+    max-width: 100%;
+    padding: 0px;
+}
