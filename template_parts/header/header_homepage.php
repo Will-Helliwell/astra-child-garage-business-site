@@ -1,4 +1,5 @@
-<div class="header-homepage bg-cover bg-center p-6 text-white text-center" style="background-image: url('https://www.w3schools.com/css/img_mountains.jpg');">
+<div class="header-homepage bg-cover bg-center bg-no-repeat p-6 text-white text-center h-screen"
+     style="background-image: url('<?php echo esc_url(wp_get_attachment_url(24)); ?>');">
     <div class="top-row flex justify-between items-center">
         <div class="site-logo flex-1">
             <?php if (has_custom_logo()) {
