@@ -1,8 +1,8 @@
 <?php
 /*
- * Template Name: Homepage
+ * Template Name: main page
  * description: >-
-  Page template for homepage
+  Page template for all major pages on the site (apart from homepage)
  */
 ?>
 
@@ -11,7 +11,7 @@
 <div class="flex flex-col items-center w-full">
     <!-- First Div: Header -->
     <div class="w-full">
-        <?php get_template_part('template_parts/header/header_homepage', 'content'); ?>
+        <?php get_template_part('template_parts/header/header_main_page', 'content'); ?>
     </div>
 
     <!-- Second Div: Page Content -->
