@@ -6,7 +6,11 @@ module.exports = {
     './**/*.js',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'header-blue': '#264f6b', // Add your custom color here
+      },
+    },
   },
   plugins: [],
 }
