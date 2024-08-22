@@ -12,7 +12,7 @@
     <!-- First Div: Header -->
     <?php get_template_part('template_parts/header/header_main_page', 'content'); ?>
     <!-- Second Div: Page Content -->
-    <div class="w-full mt-6">
+    <div class="main-page-content-container w-full mt-6">
         <?php
         if (have_posts()) :
             while (have_posts()) : the_post();
