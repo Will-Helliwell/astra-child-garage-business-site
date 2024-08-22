@@ -8,11 +8,9 @@
 
 <?php get_header(); ?>
 
-<div class="flex flex-col items-center w-full">
+<div class="homepage-container flex flex-col items-center w-full">
     <!-- First Div: Header -->
-    <div class="w-full">
         <?php get_template_part('template_parts/header/header_homepage', 'content'); ?>
-    </div>
 
     <!-- Second Div: Page Content -->
     <div class="w-full mt-6">

@@ -1,4 +1,4 @@
-<div class="top-row flex justify-between items-center">
+<div class="header-main-page-top-row flex justify-between items-center">
     <div class="site-logo flex-1">
         <?php if (has_custom_logo()) {
             the_custom_logo();
