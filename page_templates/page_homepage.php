@@ -10,6 +10,7 @@
 
 <div class="homepage-container flex flex-col items-center w-full">
     <!-- First Div: Header -->
+        <?php get_template_part('template_parts/header/white_banner', 'content'); ?>
         <?php get_template_part('template_parts/header/header_homepage', 'content'); ?>
 
     <!-- Second Div: Page Content -->
