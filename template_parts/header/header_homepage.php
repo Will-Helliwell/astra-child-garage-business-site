@@ -1,4 +1,4 @@
-<div class="header-homepage w-full bg-cover bg-center bg-no-repeat p-6 text-white text-center h-screen"
+<div class="header-homepage w-full bg-cover bg-center bg-no-repeat p-6 text-white text-center  h-[1000px]"
      style="background-image: url('<?php echo esc_url(wp_get_attachment_url(24)); ?>');">
     <?php get_template_part('template_parts/header/menu', 'content') ?>
     <div class="bottom-row mt-28">
