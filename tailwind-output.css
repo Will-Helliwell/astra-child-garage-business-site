@@ -627,6 +627,14 @@ video {
   margin-right: 0.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -685,6 +693,14 @@ video {
 
 .max-w-5xl {
   max-width: 64rem;
+}
+
+.max-w-\[80\%\] {
+  max-width: 80%;
+}
+
+.max-w-\[90\%\] {
+  max-width: 90%;
 }
 
 .flex-1 {

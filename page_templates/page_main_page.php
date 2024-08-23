@@ -8,12 +8,12 @@
 
 <?php get_header(); ?>
 
-<div id="main-page-container" class="flex flex-col items-center w-full">
+<div class="main-page-container flex flex-col items-center w-full">
     <!-- First Div: Header -->
     <?php get_template_part('template_parts/header/white_banner', 'content'); ?>
     <?php get_template_part('template_parts/header/header_main_page', 'content'); ?>
     <!-- Second Div: Page Content -->
-    <div class="main-page-content-container w-full mt-6">
+    <div class="main-page-content-container w-full">
         <?php
         if (have_posts()) :
             while (have_posts()) : the_post();

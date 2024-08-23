@@ -14,7 +14,7 @@
         <?php get_template_part('template_parts/header/header_homepage', 'content'); ?>
 
     <!-- Second Div: Page Content -->
-    <div class="w-full mt-6">
+    <div class="w-full">
         <?php
         if (have_posts()) :
             while (have_posts()) : the_post();
