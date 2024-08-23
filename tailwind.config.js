@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'header-blue': '#264f6b', // Add your custom color here
+        'header-blue': '#264f6b',
+        'homepage-subtitle-yellow': '#f0b400',
       },
     },
   },
