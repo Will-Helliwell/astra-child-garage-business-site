@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         'header-blue': '#264f6b',
         'homepage-subtitle-yellow': '#f0b400',
+        'cta-pink': '#d24a67',
+      },
+      fontSize: {
+        'xxs': '0.6rem',
       },
     },
   },

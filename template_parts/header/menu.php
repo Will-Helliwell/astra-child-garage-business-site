@@ -11,11 +11,12 @@
             <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'flex space-x-8 text-xl font-normal')); ?>
         </nav>
         <div class="header-homepage-buttons flex space-x-4">
-            <a href="#" class="header-homepage-button flex items-center justify-center w-36 bg-transparent border border-pink-500 text-pink-500 py-2 px-8 rounded text-xs">
-                First Line<br>Second Line
+            <a href="#" class="header-homepage-button flex flex-col items-center justify-center w-40 bg-transparent border border-cta-pink text-white text-xxs tracking-widest py-1 px-2 rounded-lg">
+                <p class="font-normal text-center w-full leading-tight">Call or Text</p>
+                <p class="font-bold text-center w-full leading-tight">949-876-3355</p>
             </a>
-            <a href="#" class="header-homepage-button flex items-center justify-center w-36 bg-pink-500 text-white py-2 px-8 rounded hover:bg-pink-600">
-                Button 2
+            <a href="#" class="header-homepage-button flex items-center justify-center w-40 bg-cta-pink text-white text-lg font-semibold py-0 px-6 rounded-lg hover:bg-pink-600">
+                Get In Touch
             </a>
         </div>
     </div>
