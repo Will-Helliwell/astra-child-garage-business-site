@@ -4,7 +4,10 @@
     <div class="bottom-row mt-28">
         <h1 class="title text-4xl text-white font-bold">Grand Slam Garage Sales - Your</h1>
         <h1 class="title text-4xl text-white font-bold mt-2">Trusted Partner in LA and OC</h1>
-        <h2 class="subtitle text-2xl text-homepage-subtitle-yellow font-semibold mt-2 mb-4">Helping you sell and remove items with ease!</h2>
-        <a href="#" class="cta-button bg-black text-white py-2 px-4 rounded hover:bg-gray-700">Call to Action</a>
+        <h2 class="subtitle text-2xl text-homepage-subtitle-yellow font-semibold mt-2 mb-6">Helping you sell and remove items with ease!</h2>
+        <a href="#" class="cta-button bg-cta-pink text-white text-lg font-semibold py-3 px-6 rounded-lg hover:bg-pink-600">Get a Quote Today!</a>
+        <!-- <a href="#" class="header-homepage-button flex items-center justify-center w-40 bg-cta-pink text-white text-lg font-semibold py-0 px-6 rounded-lg hover:bg-pink-600">
+                Get In Touch
+            </a> -->
     </div>
 </div>
