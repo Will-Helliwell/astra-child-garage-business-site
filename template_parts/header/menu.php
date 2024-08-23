@@ -8,9 +8,11 @@
                 <a href="<?php echo home_url(); ?>" class="text-2xl font-bold"><?php bloginfo('name'); ?></a>
             <?php } ?>
         </div>
+        <!-- Menu for Desktop -->
         <nav class="menu-primary-custom hidden md:flex flex-1 justify-center">
             <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_class' => 'flex space-x-8 text-xl font-normal')); ?>
         </nav>
+        <!-- Buttons for Desktop -->
         <div class="header-homepage-buttons hidden md:flex space-x-4">
             <a href="#" class="header-homepage-button flex flex-col items-center justify-center w-40 bg-transparent border border-cta-pink text-white text-xxs tracking-widest py-1 px-2 rounded-lg">
                 <p class="font-normal text-center w-full leading-tight">Call or Text</p>
@@ -22,12 +24,10 @@
         </div>
         <!-- Burger Icon for Mobile -->
         <button id="burger-icon" class="md:hidden flex items-center">
-            <!-- Replace this with your custom burger icon SVG or font icon -->
             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
         </button>
-
         <!-- Dropdown Menu for Mobile -->
         <div id="mobile-menu" class="fixed inset-0 bg-black text-white transform -translate-y-full transition-transform duration-300 z-50 md:hidden">
             <div class="flex flex-col items-center py-4 relative">
@@ -46,6 +46,7 @@
 </div>
 
 <script>
+    // mobile menu pop-up
     document.addEventListener('DOMContentLoaded', function() {
         const burgerIcon = document.getElementById('burger-icon');
         const mobileMenu = document.getElementById('mobile-menu');
