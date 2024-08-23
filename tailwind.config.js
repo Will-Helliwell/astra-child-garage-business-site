@@ -15,6 +15,9 @@ module.exports = {
       fontSize: {
         'xxs': '0.6rem',
       },
+      fontFamily: {
+        'mona': ['Mona Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],

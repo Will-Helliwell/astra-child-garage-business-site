@@ -7,6 +7,9 @@ function astra_child_garage_theme_enqueue_styles() {
     $parent_style_url = get_template_directory_uri() . '/style.css';
     wp_enqueue_style('astra-parent-style', $parent_style_url);
 
+    // Enqueue Google Fonts
+    wp_enqueue_style('mona-sans-font', 'https://fonts.googleapis.com/css2?family=Mona+Sans:wght@400;500;700&display=swap', false);
+    
     // Enqueue the child theme's stylesheet
     $child_style_url = get_stylesheet_directory_uri() . '/style.css';
     wp_enqueue_style('astra-child-style', $child_style_url, array('astra-parent-style'));
