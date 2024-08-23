@@ -1,5 +1,5 @@
 <div class="flex justify-center">
-    <div class="header-main-page-top-row flex justify-between items-center w-full max-w-6xl px-4">
+    <div class="header-main-page-top-row flex justify-between items-center w-full max-w-5xl px-4">
         <div class="site-logo flex">
             <?php if (has_custom_logo()) {
                 the_custom_logo();
