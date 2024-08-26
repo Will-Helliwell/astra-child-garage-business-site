@@ -15,7 +15,7 @@
         </div>
     </div>
     <div class="mt-1">
-        <?php get_template_part('template_parts/header/social_icons', 'content'); ?>
+        <?php get_template_part('template_parts/social_icons', 'content'); ?>
     </div>
 </div>
 <!-- Mobile -->

@@ -12,6 +12,7 @@ module.exports = {
         'image-ring-blue': '#2da0e8',
         'homepage-subtitle-yellow': '#f0b400',
         'cta-pink': '#d24a67',
+        'footer-text-grey': '#484747',
       },
       fontFamily: {
         'mona': ['Mona Sans', 'sans-serif'],
