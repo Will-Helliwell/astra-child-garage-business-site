@@ -29,12 +29,12 @@ function garage_image_text_columns($atts)
     // Determine the order of the columns
     $text_column = "
         <div class='w-full lg:w-1/2 p-36 flex flex-col justify-center items-start'>
-            <h2 class='text-3xl font-semibold mb-4 font-poppins'>{$subheading_content}</h2>
-            <p class='mb-4 text-xl font-mona'>{$text_content}</p>";
+            <h2 class='text-4xl font-semibold mb-4 font-poppins'>{$subheading_content}</h2>
+            <p class='mb-5 text-xl font-mona leading-relaxed'>{$text_content}</p>";
 
     if (!empty($atts['button_text']) && !empty($atts['button_url'])) {
         $text_column .= "
-            <a href='{$atts['button_url']}' class='cta-button py-3 px-6'>
+            <a href='{$atts['button_url']}' class='cta-button py-2 px-9 font-mona'>
                 {$atts['button_text']}
             </a>";
     }
