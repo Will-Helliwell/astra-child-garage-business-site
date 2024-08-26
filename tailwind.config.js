@@ -9,14 +9,15 @@ module.exports = {
     extend: {
       colors: {
         'header-blue': '#264f6b',
+        'image-ring-blue': '#2da0e8',
         'homepage-subtitle-yellow': '#f0b400',
         'cta-pink': '#d24a67',
       },
-      fontSize: {
-        'xxs': '0.6rem',
-      },
       fontFamily: {
         'mona': ['Mona Sans', 'sans-serif'],
+      },
+      fontSize: {
+        'xxs': '0.6rem',
       },
     },
   },

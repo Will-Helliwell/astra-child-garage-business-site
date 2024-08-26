@@ -13,9 +13,9 @@ function garage_image_text_columns($atts)
 
     // Determine the order of the columns
     $text_column = "
-        <div class='w-full lg:w-1/2 p-6'>
-            <h2 class='text-2xl font-semibold mb-4'>{$atts['subheading']}</h2>
-            <p class='mb-4'>{$atts['text']}</p>";
+        <div class='w-full lg:w-1/2 p-36 flex flex-col justify-center items-start'>
+            <h2 class='text-3xl font-semibold mb-4 font-poppins'>{$atts['subheading']}</h2>
+            <p class='mb-4 text-xl font-mona'>{$atts['text']}</p>";
 
     if (!empty($atts['button_text']) && !empty($atts['button_url'])) {
         $text_column .= "
@@ -27,8 +27,8 @@ function garage_image_text_columns($atts)
     $text_column .= "</div>";
 
     $image_column = "
-        <div class='w-full lg:w-1/2 p-6'>
-            <img src='{$atts['image_url']}' alt='' class='w-full h-auto'>
+        <div class='w-full lg:w-1/2 p-36'>
+            <img src='{$atts['image_url']}' alt='' class='w-full h-auto rounded-3xl ring-2 ring-image-ring-blue'>
         </div>";
 
     // Combine columns based on the order attribute
