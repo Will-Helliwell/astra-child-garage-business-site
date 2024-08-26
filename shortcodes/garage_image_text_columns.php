@@ -28,13 +28,13 @@ function garage_image_text_columns($atts)
     $subheading_content = wp_kses($atts['subheading'], $allowed_html);
 
     // Define padding and margin values
-    $outer_padding = 'p-28';  // Padding around the outer container
+    $outer_padding = 'p-6 md:p-28';  // Padding around the outer container
     $inner_margin = 'mx-8';   // Margin between columns
 
     // Define columns content
     $text_column = "
-        <div class='w-full lg:w-1/2 flex items-center'>
-            <div class='p-0 flex flex-col justify-center items-start h-full pr-8'>
+        <div class='w-full lg:w-1/2 flex items-center mb-6 md:mb-0'>
+            <div class='p-0 flex flex-col justify-center items-center text-center md:items-start md:text-left h-full md:pr-8'>
                 <h2 class='text-4xl font-semibold mb-4 font-poppins'>{$subheading_content}</h2>
                 <p class='mb-5 text-xl font-mona leading-relaxed'>{$text_content}</p>";
 
@@ -49,7 +49,7 @@ function garage_image_text_columns($atts)
 
     $image_column = "
         <div class='w-full lg:w-1/2'>
-            <div class='p-8'>
+            <div class='p-2 md:p-8'>
                 <img src='{$atts['image_url']}' alt='' class='w-full h-auto rounded-3xl ring-2 ring-image-ring-blue'>
             </div>
         </div>";
