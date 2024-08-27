@@ -38,8 +38,6 @@ Text Domain: astrachildgaragebusinesssite
   flex: 1 1 100%; /* Make these fields take the full width */
   box-sizing: border-box; /* Ensure padding and borders are included in the element's total width */
 }
-
-
 /* submit button */
 .page-id-34 #nf-form-2-cont nf-field:last-child input {
   background-color: var(--cta-pink); /* background color */
@@ -55,4 +53,13 @@ Text Domain: astrachildgaragebusinesssite
 }
 .custom-button:hover {
   background-color: var(--pink-600); /* background color on hover */
+}
+/* styling for all inputs */
+.page-id-34 #nf-form-2-cont label,
+.page-id-34 #nf-form-2-cont textarea {
+    font-family: 'Mona Sans', sans-serif;
+}
+.page-id-34 #nf-form-2-cont input {
+    border-radius: 0.75rem;
+    background: inherit;
 }

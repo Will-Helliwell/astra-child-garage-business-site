@@ -674,6 +674,22 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1125,6 +1141,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-cta-pink {
+  --tw-text-opacity: 1;
+  color: rgb(210 74 103 / var(--tw-text-opacity));
 }
 
 .underline {
