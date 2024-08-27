@@ -1,5 +1,5 @@
 <div class="footer-background bg-black">
-    <div class="columns-container pt-10 px-20 pb-10 text-white">
+    <div class="columns-container pt-10 px-16 md:px-20 pb-10 text-white">
         <div class="grid grid-cols-2 gap-0">
             <div class="flex flex-col justify-between">
                 <a href="/" class="mb-4 underline">Home</a>
@@ -9,12 +9,12 @@
                 <a href="/faqs" class="mb-4 underline">FAQs</a>
                 <a href="/get-in-touch" class="underline">Get in Touch</a>
             </div>
-            <div class="grid grid-cols-[3fr_1fr] gap-0">
-                <div></div>
-                <div class="flex flex-col justify-between">
-                    <p><b>Phone:</b> 949-876-3355</p>
-                    <p><b>Email:</b> help@grandslamgaragesales.com</p>
-                    <p><b>Business Hours:</b> Mon-Fri, 9am-6pm</p>
+            <div class="md:grid md:grid-cols-[3fr_2fr] md:gap-0">
+                <div class="hidden md:block"></div>
+                <div class="flex flex-col justify-between h-full">
+                    <p class="break-words"><b>Phone:</b> 949-876-3355</p>
+                    <p class="break-words"><b>Email:</b> help@grandslamgaragesales.com</p>
+                    <p class="break-words"><b>Business Hours:</b> Mon-Fri, 9am-6pm</p>
                 </div>
             </div>
         </div>
