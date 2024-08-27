@@ -12,6 +12,7 @@
     <!-- First Div: Header -->
     <?php get_template_part('template_parts/header/white_banner', 'content'); ?>
     <?php get_template_part('template_parts/header/header_main_page', 'content'); ?>
+
     <!-- Second Div: Page Content -->
     <div class="main-page-content-container w-full">
         <?php
@@ -22,6 +23,9 @@
         endif;
         ?>
     </div>
+
+    <!-- Third Div: Footer -->
+    <?php get_template_part('template_parts/footer', 'content'); ?>
 </div>
 
 <?php get_footer(); ?>
