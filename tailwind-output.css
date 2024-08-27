@@ -670,6 +670,10 @@ video {
   margin-top: 7rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -774,6 +778,10 @@ video {
 
 .grid-cols-\[3fr_1fr\] {
   grid-template-columns: 3fr 1fr;
+}
+
+.grid-cols-\[3fr_2fr\] {
+  grid-template-columns: 3fr 2fr;
 }
 
 .flex-col {
@@ -943,6 +951,10 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-28 {
+  padding: 7rem;
 }
 
 .px-2 {
