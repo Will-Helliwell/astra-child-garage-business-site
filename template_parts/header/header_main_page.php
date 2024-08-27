@@ -15,6 +15,11 @@ switch ($pagename) {
         $subtitle_line_one = 'Seamless and Efficient Processes Tailored for You';
         $subtitle_line_two = '';
         break;
+    case 'get-in-touch':
+        $background_image_id = 81;
+        $subtitle_line_one = "We'd Love to Hear from You!";
+        $subtitle_line_two = '';
+        break;
 
     default:
         $background_image_id = 24;

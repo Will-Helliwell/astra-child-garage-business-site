@@ -9,8 +9,50 @@ Version: 1.0.0
 Text Domain: astrachildgaragebusinesssite
 */
 
+:root {
+  --cta-pink: #d24a67; /* Adjust the color code to match your design system */
+  --pink-600: #e11d48; /* Adjust the color code to match your design system */
+}
+
 /* this overrides the astra 'container' settings which only allow full-width in the paid version of the theme */
 .ast-container {
-    max-width: 100%;
-    padding: 0px;
+  max-width: 100%;
+  padding: 0px;
+}
+
+/* NINJA FORMS CUSTOM STYLING */
+/* contact us page form */
+.page-id-34 #nf-form-2-cont nf-fields-wrap {
+  display: flex;
+  flex-wrap: wrap; /* Allows the fields to wrap to the next line if needed */
+  gap: 16px; /* Adjust gap between columns if necessary */
+}
+/* Target the first two fields to take 50% width each */
+.page-id-34 #nf-form-2-cont nf-field:nth-child(1),
+.page-id-34 #nf-form-2-cont nf-field:nth-child(2) {
+  flex: 1 1 calc(50% - 16px); /* Adjust the width to be 50% minus the gap */
+  box-sizing: border-box; /* Ensure padding and borders are included in the element's total width */
+}
+/* Target all remaining fields to take full width */
+.page-id-34 #nf-form-2-cont nf-field:nth-child(n + 3) {
+  flex: 1 1 100%; /* Make these fields take the full width */
+  box-sizing: border-box; /* Ensure padding and borders are included in the element's total width */
+}
+
+
+/* submit button */
+.page-id-34 #nf-form-2-cont nf-field:last-child input {
+  background-color: var(--cta-pink); /* background color */
+  color: white; /* text color */
+  font-size: 1.125rem; /* text-lg (18px) */
+  font-weight: 600; /* font-semibold */
+  border-radius: 0.5rem; /* rounded-lg (8px) */
+  padding: 0.5rem 1rem; /* Adjust padding if needed for your design */
+  text-align: center; /* Optional, align text in center */
+  display: inline-block; /* Optional, make the button inline-block */
+  transition: background-color 0.3s; /* Optional, smooth transition for hover effect */
+  width:100%;
+}
+.custom-button:hover {
+  background-color: var(--pink-600); /* background color on hover */
 }
