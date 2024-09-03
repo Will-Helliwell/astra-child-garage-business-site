@@ -40,7 +40,7 @@ function garage_image_text_columns($atts)
 
     if (!empty($atts['button_text']) && !empty($atts['button_url'])) {
         $text_column .= "
-            <a href='{$atts['button_url']}' class='cta-button py-2 px-9 font-mona'>
+            <a href='{$atts['button_url']}' class='cta-button py-2 px-9 font-mona text-lg'>
                 {$atts['button_text']}
             </a>";
     }

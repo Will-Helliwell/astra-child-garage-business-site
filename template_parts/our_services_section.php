@@ -1,6 +1,6 @@
 <div class="bg-black flex flex-col items-center h-full p-36">
-    <h2 class="text-center text-white text-4xl font-semibold font-poppins mb-8">Our Services</h2>
-    <div class="grid grid-rows-2 grid-cols-3 gap-4 mb-8">
+    <h2 class="text-center text-white text-5xl font-bold font-poppins mb-16">Our Services</h2>
+    <div class="grid grid-rows-2 grid-cols-3 gap-4 mb-16">
         <!-- Top row: single image spanning all columns -->
         <div class="row-span-1 col-span-3 flex items-center text-center relative">
             <img src="<?php echo esc_url(wp_get_attachment_url(102)); ?>" alt="Top Image" class="w-full h-full object-cover rounded-3xl ring-2 ring-image-ring-blue">
@@ -28,7 +28,7 @@
             </div>
         </div>
     </div>
-    <a href="/services" class="cta-button px-6 py-2 underline">
+    <a href="/services" class="cta-button px-16 py-6 underline text-2xl">
         View Services
     </a>
 </div>

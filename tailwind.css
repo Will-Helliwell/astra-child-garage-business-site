@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 .cta-button {
-    @apply bg-cta-pink text-white text-lg font-semibold rounded-lg hover:bg-pink-600;
+    @apply bg-cta-pink text-white font-semibold rounded-lg hover:bg-pink-600;
 }
 

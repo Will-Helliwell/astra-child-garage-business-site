@@ -18,7 +18,7 @@
                 <p class="font-normal text-center w-full leading-tight">Call or Text</p>
                 <p class="font-bold text-center w-full leading-tight">949-876-3355</p>
             </a>
-            <a href="/get-in-touch" class="cta-button py-0 px-6 flex items-center justify-center">
+            <a href="/get-in-touch" class="cta-button py-0 px-6 text-lg flex items-center justify-center">
                 Get In Touch
             </a>
         </div>

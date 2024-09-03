@@ -8,6 +8,6 @@
         <h2 class="subtitle text-2xl text-homepage-subtitle-yellow font-semibold mt-2 mb-6 max-w-3xl mx-auto">
             Helping you sell and remove items with ease!
         </h2>
-        <a href="#" class="cta-button py-3 px-6">Get a Quote Today!</a>
+        <a href="#" class="cta-button py-3 px-6 text-lg">Get a Quote Today!</a>
     </div>
 </div>
