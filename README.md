@@ -11,7 +11,7 @@ Instead of using a drag-and-drop page-builder (e.g. Elementor or Divi), I used a
 ### Screenshots
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="image1_url" alt="Image 1" style="width: 49%;">
-  <img src="image2_url" alt="Image 2" style="width: 49%;">
+  <img src="figma_design_1.png" alt="Image 1" style="width: 49%;">
+  <img src="my_website_replica_homepage.png" alt="Image 2" style="width: 49%;">
 </div>
 
