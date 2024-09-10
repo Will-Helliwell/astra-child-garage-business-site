@@ -8,7 +8,7 @@ Instead of using a drag-and-drop page-builder (e.g. Elementor or Divi), I used a
 
 ---
 
-### Screenshots
+### Screenshots (Figma design : End result)
 
 <div style="display: flex; justify-content: space-between;">
   <img src="figma_design_1.png" alt="Image 1" style="width: 49%;">
